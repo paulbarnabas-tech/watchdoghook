@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta charset="utf-8">
+		<link href="css/bootstrap-theme.css" rel="stylesheet">
+		<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+	</head>
+	<body>
+		<div class="container" style="padding: 100px 50px 10px;">
+			<button type="button" class="btn btn-default" title="全球最大的中文搜索引擎" data-container="boby" data-toggle="popover"
+				data-placement="left" data-content="www.baidu.com">百度网</button>
+			<button type="button" class="btn btn-primary" title="亚太地区较大的网络零售"
+				data-container="body" data-toggle="popover" data-placement="top" data-content="www.taobao.com">百度网</button>
+			<button type="button" class="btn btn-success" title="全国最大的互联网综合服务提供商"
+				data-container="body" data-toggle="popover" data-placement="top" data-content="www.qq.com">淘宝网</button>	
+			<button type="button" class="btn btn-primary" title="亚太地区较大的网络零售"
+				data-container="body" data-toggle="popover" data-placement="top" data-content="www.taobao.com">塘汛网</button>
+				<button type="button" class="btn btn-warning" title="综合网上购物商场"
+				data-container="body" data-toggle="popover" data-placement="right" data-content="www.dangdang.com">当当网</button>
+		</div>
+		<script>
+			$(function(){$("[data-toggle='popover']").popover()})
+		</script>
+	</body>
+</html>
