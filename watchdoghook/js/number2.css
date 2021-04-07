@@ -1,0 +1,47 @@
+body{
+	background-image:url(../img/img/Rcdec52c62a1ef63a92b35ad8c415d9db.png)
+}
+h1{
+	color: white;
+}
+h3{
+	color: white;
+}
+span{
+	color: #FF0000;
+	margin-right: 10px;
+}
+label{
+	width: 200px;
+	color: white
+}
+li{
+	list-style: none;
+	height: 40px;
+	display: flex;
+	width: 600px;
+	margin-bottom: 15px;
+	margin-right: 120px;
+	
+}
+ul{	padding: 0;
+	margin-left: 600px;
+}
+input{
+	flex: 1;
+	
+}
+button{
+	width: 80px;
+	height: 40px;
+	align-items: center;
+}
+.box{
+	width: 400px;
+	border: 1px solid wheat;
+	padding: 30px 40px;
+}
+.span{
+	color: green;
+}
+

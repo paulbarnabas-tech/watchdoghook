@@ -1,0 +1,21 @@
+body{
+	background-image: url(img/watchdogs-logo-9.jpg)
+}
+h1{
+	color: whitesmoke;
+}
+span{
+	color: whitesmoke;
+	font-size: 20px;
+	
+}
+div{
+	margin: 100px;
+}
+h3{
+	color: white;
+	
+}
+label{
+	color: white;
+}

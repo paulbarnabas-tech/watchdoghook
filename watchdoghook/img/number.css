@@ -1,0 +1,42 @@
+body{
+	background-image:url(img/Rcdec52c62a1ef63a92b35ad8c415d9db.png)
+}
+h2{
+	color: red;
+	text-align: center;
+}
+span{
+	color: #FF0000;
+	margin-right: 10px;
+}
+label{
+	width: 200px;
+}
+li{
+	list-style: none;
+	height: 40px;
+	display: flex;
+	margin-bottom: 15px;
+	
+}
+ul{	padding: 0;
+
+}
+input{
+	flex: 1;
+}
+button{
+	color: green;
+	border: 1px solid#008000;
+	color: white;
+	height: 40px;
+	}
+.box{
+	width: 400px;
+	border: 1px solid wheat;
+	box-shadow: 0 0 10px brown;
+	padding: 30px 40px;
+}
+.span{
+	color: green;
+}
